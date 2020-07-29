@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Mask Detector.xcodeproj">
+      location = "self:/Users/shubhampatel/Desktop/development/mask_detection/face_detection/Mask Detector.xcodeproj">
    </FileRef>
 </Workspace>

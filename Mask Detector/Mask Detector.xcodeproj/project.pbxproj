@@ -7,68 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE59A2CE24CAF5690077CBC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59A2CD24CAF5690077CBC3 /* AppDelegate.swift */; };
-		DE59A2D224CAF5690077CBC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59A2D124CAF5690077CBC3 /* ViewController.swift */; };
-		DE59A2D724CAF56A0077CBC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE59A2D624CAF56A0077CBC3 /* Assets.xcassets */; };
-		DE59A2DA24CAF56A0077CBC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE59A2D824CAF56A0077CBC3 /* LaunchScreen.storyboard */; };
-		DE59A2E524CAF56B0077CBC3 /* Mask_DetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59A2E424CAF56B0077CBC3 /* Mask_DetectorTests.swift */; };
-		DE59A2F024CAF56B0077CBC3 /* Mask_DetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59A2EF24CAF56B0077CBC3 /* Mask_DetectorUITests.swift */; };
-		DE59A2FE24CAF6080077CBC3 /* mask_detection_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE59A2FD24CAF6080077CBC3 /* mask_detection_model.mlmodel */; };
-		DE59A30024CB03CF0077CBC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59A2FF24CB03CF0077CBC3 /* SceneDelegate.swift */; };
-		DE59A34024CB0A5D0077CBC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE59A33F24CB0A5D0077CBC3 /* Main.storyboard */; };
+		DE3D615324CB469500448CF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D615224CB469500448CF4 /* AppDelegate.swift */; };
+		DE3D615524CB469500448CF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D615424CB469500448CF4 /* SceneDelegate.swift */; };
+		DE3D615724CB469500448CF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D615624CB469500448CF4 /* ViewController.swift */; };
+		DE3D615A24CB469500448CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3D615824CB469500448CF4 /* Main.storyboard */; };
+		DE3D615C24CB469B00448CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE3D615B24CB469B00448CF4 /* Assets.xcassets */; };
+		DE3D615F24CB469B00448CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3D615D24CB469B00448CF4 /* LaunchScreen.storyboard */; };
+		DE3D616A24CB469B00448CF4 /* face_detectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D616924CB469B00448CF4 /* face_detectionTests.swift */; };
+		DE3D617524CB469B00448CF4 /* face_detectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D617424CB469B00448CF4 /* face_detectionUITests.swift */; };
+		DE76F89224D073F3006AE092 /* mask_detection.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE76F89124D073F3006AE092 /* mask_detection.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DE59A2E124CAF56B0077CBC3 /* PBXContainerItemProxy */ = {
+		DE3D616624CB469B00448CF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DE59A2C224CAF5690077CBC3 /* Project object */;
+			containerPortal = DE3D614724CB469500448CF4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DE59A2C924CAF5690077CBC3;
-			remoteInfo = "Mask Detector";
+			remoteGlobalIDString = DE3D614E24CB469500448CF4;
+			remoteInfo = face_detection;
 		};
-		DE59A2EC24CAF56B0077CBC3 /* PBXContainerItemProxy */ = {
+		DE3D617124CB469B00448CF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DE59A2C224CAF5690077CBC3 /* Project object */;
+			containerPortal = DE3D614724CB469500448CF4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DE59A2C924CAF5690077CBC3;
-			remoteInfo = "Mask Detector";
+			remoteGlobalIDString = DE3D614E24CB469500448CF4;
+			remoteInfo = face_detection;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DE59A2CA24CAF5690077CBC3 /* Mask Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mask Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE59A2CD24CAF5690077CBC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE59A2D124CAF5690077CBC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE59A2D624CAF56A0077CBC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DE59A2D924CAF56A0077CBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DE59A2DB24CAF56A0077CBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE59A2E024CAF56B0077CBC3 /* Mask DetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mask DetectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE59A2E424CAF56B0077CBC3 /* Mask_DetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask_DetectorTests.swift; sourceTree = "<group>"; };
-		DE59A2E624CAF56B0077CBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE59A2EB24CAF56B0077CBC3 /* Mask DetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mask DetectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE59A2EF24CAF56B0077CBC3 /* Mask_DetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask_DetectorUITests.swift; sourceTree = "<group>"; };
-		DE59A2F124CAF56B0077CBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE59A2FD24CAF6080077CBC3 /* mask_detection_model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mask_detection_model.mlmodel; path = ../../model/mask_detection_model.mlmodel; sourceTree = "<group>"; };
-		DE59A2FF24CB03CF0077CBC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../../../../.Trash/SceneDelegate.swift; sourceTree = "<group>"; };
-		DE59A33F24CB0A5D0077CBC3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		DE3D614F24CB469500448CF4 /* Mask Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mask Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3D615224CB469500448CF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE3D615424CB469500448CF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE3D615624CB469500448CF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE3D615924CB469500448CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE3D615B24CB469B00448CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE3D615E24CB469B00448CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE3D616024CB469B00448CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE3D616524CB469B00448CF4 /* Mask DetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mask DetectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3D616924CB469B00448CF4 /* face_detectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = face_detectionTests.swift; sourceTree = "<group>"; };
+		DE3D616B24CB469B00448CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE3D617024CB469B00448CF4 /* Mask DetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mask DetectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3D617424CB469B00448CF4 /* face_detectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = face_detectionUITests.swift; sourceTree = "<group>"; };
+		DE3D617624CB469B00448CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE76F89124D073F3006AE092 /* mask_detection.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mask_detection.mlmodel; path = ../../model/mask_detection.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DE59A2C724CAF5690077CBC3 /* Frameworks */ = {
+		DE3D614C24CB469500448CF4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE59A2DD24CAF56B0077CBC3 /* Frameworks */ = {
+		DE3D616224CB469B00448CF4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE59A2E824CAF56B0077CBC3 /* Frameworks */ = {
+		DE3D616D24CB469B00448CF4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,139 +78,139 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DE59A2C124CAF5690077CBC3 = {
+		DE3D614624CB469500448CF4 = {
 			isa = PBXGroup;
 			children = (
-				DE59A2CC24CAF5690077CBC3 /* Mask Detector */,
-				DE59A2E324CAF56B0077CBC3 /* Mask DetectorTests */,
-				DE59A2EE24CAF56B0077CBC3 /* Mask DetectorUITests */,
-				DE59A2CB24CAF5690077CBC3 /* Products */,
+				DE3D615124CB469500448CF4 /* face_detection */,
+				DE3D616824CB469B00448CF4 /* face_detectionTests */,
+				DE3D617324CB469B00448CF4 /* face_detectionUITests */,
+				DE3D615024CB469500448CF4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DE59A2CB24CAF5690077CBC3 /* Products */ = {
+		DE3D615024CB469500448CF4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE59A2CA24CAF5690077CBC3 /* Mask Detector.app */,
-				DE59A2E024CAF56B0077CBC3 /* Mask DetectorTests.xctest */,
-				DE59A2EB24CAF56B0077CBC3 /* Mask DetectorUITests.xctest */,
+				DE3D614F24CB469500448CF4 /* Mask Detector.app */,
+				DE3D616524CB469B00448CF4 /* Mask DetectorTests.xctest */,
+				DE3D617024CB469B00448CF4 /* Mask DetectorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DE59A2CC24CAF5690077CBC3 /* Mask Detector */ = {
+		DE3D615124CB469500448CF4 /* face_detection */ = {
 			isa = PBXGroup;
 			children = (
-				DE59A2FD24CAF6080077CBC3 /* mask_detection_model.mlmodel */,
-				DE59A2CD24CAF5690077CBC3 /* AppDelegate.swift */,
-				DE59A2D124CAF5690077CBC3 /* ViewController.swift */,
-				DE59A2FF24CB03CF0077CBC3 /* SceneDelegate.swift */,
-				DE59A33F24CB0A5D0077CBC3 /* Main.storyboard */,
-				DE59A2D624CAF56A0077CBC3 /* Assets.xcassets */,
-				DE59A2D824CAF56A0077CBC3 /* LaunchScreen.storyboard */,
-				DE59A2DB24CAF56A0077CBC3 /* Info.plist */,
+				DE3D615224CB469500448CF4 /* AppDelegate.swift */,
+				DE3D615424CB469500448CF4 /* SceneDelegate.swift */,
+				DE3D615624CB469500448CF4 /* ViewController.swift */,
+				DE3D615824CB469500448CF4 /* Main.storyboard */,
+				DE76F89124D073F3006AE092 /* mask_detection.mlmodel */,
+				DE3D615B24CB469B00448CF4 /* Assets.xcassets */,
+				DE3D615D24CB469B00448CF4 /* LaunchScreen.storyboard */,
+				DE3D616024CB469B00448CF4 /* Info.plist */,
 			);
-			path = "Mask Detector";
+			path = face_detection;
 			sourceTree = "<group>";
 		};
-		DE59A2E324CAF56B0077CBC3 /* Mask DetectorTests */ = {
+		DE3D616824CB469B00448CF4 /* face_detectionTests */ = {
 			isa = PBXGroup;
 			children = (
-				DE59A2E424CAF56B0077CBC3 /* Mask_DetectorTests.swift */,
-				DE59A2E624CAF56B0077CBC3 /* Info.plist */,
+				DE3D616924CB469B00448CF4 /* face_detectionTests.swift */,
+				DE3D616B24CB469B00448CF4 /* Info.plist */,
 			);
-			path = "Mask DetectorTests";
+			path = face_detectionTests;
 			sourceTree = "<group>";
 		};
-		DE59A2EE24CAF56B0077CBC3 /* Mask DetectorUITests */ = {
+		DE3D617324CB469B00448CF4 /* face_detectionUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DE59A2EF24CAF56B0077CBC3 /* Mask_DetectorUITests.swift */,
-				DE59A2F124CAF56B0077CBC3 /* Info.plist */,
+				DE3D617424CB469B00448CF4 /* face_detectionUITests.swift */,
+				DE3D617624CB469B00448CF4 /* Info.plist */,
 			);
-			path = "Mask DetectorUITests";
+			path = face_detectionUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE59A2C924CAF5690077CBC3 /* Mask Detector */ = {
+		DE3D614E24CB469500448CF4 /* Mask Detector */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE59A2F424CAF56B0077CBC3 /* Build configuration list for PBXNativeTarget "Mask Detector" */;
+			buildConfigurationList = DE3D617924CB469B00448CF4 /* Build configuration list for PBXNativeTarget "Mask Detector" */;
 			buildPhases = (
-				DE59A2C624CAF5690077CBC3 /* Sources */,
-				DE59A2C724CAF5690077CBC3 /* Frameworks */,
-				DE59A2C824CAF5690077CBC3 /* Resources */,
+				DE3D614B24CB469500448CF4 /* Sources */,
+				DE3D614C24CB469500448CF4 /* Frameworks */,
+				DE3D614D24CB469500448CF4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Mask Detector";
-			productName = "Mask Detector";
-			productReference = DE59A2CA24CAF5690077CBC3 /* Mask Detector.app */;
+			productName = face_detection;
+			productReference = DE3D614F24CB469500448CF4 /* Mask Detector.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DE59A2DF24CAF56B0077CBC3 /* Mask DetectorTests */ = {
+		DE3D616424CB469B00448CF4 /* Mask DetectorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE59A2F724CAF56B0077CBC3 /* Build configuration list for PBXNativeTarget "Mask DetectorTests" */;
+			buildConfigurationList = DE3D617C24CB469B00448CF4 /* Build configuration list for PBXNativeTarget "Mask DetectorTests" */;
 			buildPhases = (
-				DE59A2DC24CAF56B0077CBC3 /* Sources */,
-				DE59A2DD24CAF56B0077CBC3 /* Frameworks */,
-				DE59A2DE24CAF56B0077CBC3 /* Resources */,
+				DE3D616124CB469B00448CF4 /* Sources */,
+				DE3D616224CB469B00448CF4 /* Frameworks */,
+				DE3D616324CB469B00448CF4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DE59A2E224CAF56B0077CBC3 /* PBXTargetDependency */,
+				DE3D616724CB469B00448CF4 /* PBXTargetDependency */,
 			);
 			name = "Mask DetectorTests";
-			productName = "Mask DetectorTests";
-			productReference = DE59A2E024CAF56B0077CBC3 /* Mask DetectorTests.xctest */;
+			productName = face_detectionTests;
+			productReference = DE3D616524CB469B00448CF4 /* Mask DetectorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DE59A2EA24CAF56B0077CBC3 /* Mask DetectorUITests */ = {
+		DE3D616F24CB469B00448CF4 /* Mask DetectorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE59A2FA24CAF56B0077CBC3 /* Build configuration list for PBXNativeTarget "Mask DetectorUITests" */;
+			buildConfigurationList = DE3D617F24CB469B00448CF4 /* Build configuration list for PBXNativeTarget "Mask DetectorUITests" */;
 			buildPhases = (
-				DE59A2E724CAF56B0077CBC3 /* Sources */,
-				DE59A2E824CAF56B0077CBC3 /* Frameworks */,
-				DE59A2E924CAF56B0077CBC3 /* Resources */,
+				DE3D616C24CB469B00448CF4 /* Sources */,
+				DE3D616D24CB469B00448CF4 /* Frameworks */,
+				DE3D616E24CB469B00448CF4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DE59A2ED24CAF56B0077CBC3 /* PBXTargetDependency */,
+				DE3D617224CB469B00448CF4 /* PBXTargetDependency */,
 			);
 			name = "Mask DetectorUITests";
-			productName = "Mask DetectorUITests";
-			productReference = DE59A2EB24CAF56B0077CBC3 /* Mask DetectorUITests.xctest */;
+			productName = face_detectionUITests;
+			productReference = DE3D617024CB469B00448CF4 /* Mask DetectorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DE59A2C224CAF5690077CBC3 /* Project object */ = {
+		DE3D614724CB469500448CF4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Shubham Patel";
 				TargetAttributes = {
-					DE59A2C924CAF5690077CBC3 = {
+					DE3D614E24CB469500448CF4 = {
 						CreatedOnToolsVersion = 11.6;
 					};
-					DE59A2DF24CAF56B0077CBC3 = {
+					DE3D616424CB469B00448CF4 = {
 						CreatedOnToolsVersion = 11.6;
-						TestTargetID = DE59A2C924CAF5690077CBC3;
+						TestTargetID = DE3D614E24CB469500448CF4;
 					};
-					DE59A2EA24CAF56B0077CBC3 = {
+					DE3D616F24CB469B00448CF4 = {
 						CreatedOnToolsVersion = 11.6;
-						TestTargetID = DE59A2C924CAF5690077CBC3;
+						TestTargetID = DE3D614E24CB469500448CF4;
 					};
 				};
 			};
-			buildConfigurationList = DE59A2C524CAF5690077CBC3 /* Build configuration list for PBXProject "Mask Detector" */;
+			buildConfigurationList = DE3D614A24CB469500448CF4 /* Build configuration list for PBXProject "Mask Detector" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,37 +218,37 @@
 				en,
 				Base,
 			);
-			mainGroup = DE59A2C124CAF5690077CBC3;
-			productRefGroup = DE59A2CB24CAF5690077CBC3 /* Products */;
+			mainGroup = DE3D614624CB469500448CF4;
+			productRefGroup = DE3D615024CB469500448CF4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE59A2C924CAF5690077CBC3 /* Mask Detector */,
-				DE59A2DF24CAF56B0077CBC3 /* Mask DetectorTests */,
-				DE59A2EA24CAF56B0077CBC3 /* Mask DetectorUITests */,
+				DE3D614E24CB469500448CF4 /* Mask Detector */,
+				DE3D616424CB469B00448CF4 /* Mask DetectorTests */,
+				DE3D616F24CB469B00448CF4 /* Mask DetectorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DE59A2C824CAF5690077CBC3 /* Resources */ = {
+		DE3D614D24CB469500448CF4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE59A34024CB0A5D0077CBC3 /* Main.storyboard in Resources */,
-				DE59A2DA24CAF56A0077CBC3 /* LaunchScreen.storyboard in Resources */,
-				DE59A2D724CAF56A0077CBC3 /* Assets.xcassets in Resources */,
+				DE3D615F24CB469B00448CF4 /* LaunchScreen.storyboard in Resources */,
+				DE3D615C24CB469B00448CF4 /* Assets.xcassets in Resources */,
+				DE3D615A24CB469500448CF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE59A2DE24CAF56B0077CBC3 /* Resources */ = {
+		DE3D616324CB469B00448CF4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE59A2E924CAF56B0077CBC3 /* Resources */ = {
+		DE3D616E24CB469B00448CF4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,53 +258,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DE59A2C624CAF5690077CBC3 /* Sources */ = {
+		DE3D614B24CB469500448CF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE59A2D224CAF5690077CBC3 /* ViewController.swift in Sources */,
-				DE59A2CE24CAF5690077CBC3 /* AppDelegate.swift in Sources */,
-				DE59A2FE24CAF6080077CBC3 /* mask_detection_model.mlmodel in Sources */,
-				DE59A30024CB03CF0077CBC3 /* SceneDelegate.swift in Sources */,
+				DE3D615724CB469500448CF4 /* ViewController.swift in Sources */,
+				DE3D615324CB469500448CF4 /* AppDelegate.swift in Sources */,
+				DE76F89224D073F3006AE092 /* mask_detection.mlmodel in Sources */,
+				DE3D615524CB469500448CF4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE59A2DC24CAF56B0077CBC3 /* Sources */ = {
+		DE3D616124CB469B00448CF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE59A2E524CAF56B0077CBC3 /* Mask_DetectorTests.swift in Sources */,
+				DE3D616A24CB469B00448CF4 /* face_detectionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE59A2E724CAF56B0077CBC3 /* Sources */ = {
+		DE3D616C24CB469B00448CF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE59A2F024CAF56B0077CBC3 /* Mask_DetectorUITests.swift in Sources */,
+				DE3D617524CB469B00448CF4 /* face_detectionUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DE59A2E224CAF56B0077CBC3 /* PBXTargetDependency */ = {
+		DE3D616724CB469B00448CF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DE59A2C924CAF5690077CBC3 /* Mask Detector */;
-			targetProxy = DE59A2E124CAF56B0077CBC3 /* PBXContainerItemProxy */;
+			target = DE3D614E24CB469500448CF4 /* Mask Detector */;
+			targetProxy = DE3D616624CB469B00448CF4 /* PBXContainerItemProxy */;
 		};
-		DE59A2ED24CAF56B0077CBC3 /* PBXTargetDependency */ = {
+		DE3D617224CB469B00448CF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DE59A2C924CAF5690077CBC3 /* Mask Detector */;
-			targetProxy = DE59A2EC24CAF56B0077CBC3 /* PBXContainerItemProxy */;
+			target = DE3D614E24CB469500448CF4 /* Mask Detector */;
+			targetProxy = DE3D617124CB469B00448CF4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DE59A2D824CAF56A0077CBC3 /* LaunchScreen.storyboard */ = {
+		DE3D615824CB469500448CF4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DE59A2D924CAF56A0077CBC3 /* Base */,
+				DE3D615924CB469500448CF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE3D615D24CB469B00448CF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE3D615E24CB469B00448CF4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +320,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DE59A2F224CAF56B0077CBC3 /* Debug */ = {
+		DE3D617724CB469B00448CF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,7 +380,7 @@
 			};
 			name = Debug;
 		};
-		DE59A2F324CAF56B0077CBC3 /* Release */ = {
+		DE3D617824CB469B00448CF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -426,62 +434,57 @@
 			};
 			name = Release;
 		};
-		DE59A2F524CAF56B0077CBC3 /* Debug */ = {
+		DE3D617A24CB469B00448CF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6484ZA84G9;
-				INFOPLIST_FILE = "Mask Detector/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				INFOPLIST_FILE = face_detection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Shubham.Mask-Detector";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham.face-detection";
+				PRODUCT_NAME = "Mask Detector";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DE59A2F624CAF56B0077CBC3 /* Release */ = {
+		DE3D617B24CB469B00448CF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6484ZA84G9;
-				INFOPLIST_FILE = "Mask Detector/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				INFOPLIST_FILE = face_detection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Shubham.Mask-Detector";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham.face-detection";
+				PRODUCT_NAME = "Mask Detector";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		DE59A2F824CAF56B0077CBC3 /* Debug */ = {
+		DE3D617D24CB469B00448CF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Mask DetectorTests/Info.plist";
+				DEVELOPMENT_TEAM = 6484ZA84G9;
+				INFOPLIST_FILE = face_detectionTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Shubham.Mask-DetectorTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham.face-detectionTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -489,20 +492,21 @@
 			};
 			name = Debug;
 		};
-		DE59A2F924CAF56B0077CBC3 /* Release */ = {
+		DE3D617E24CB469B00448CF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Mask DetectorTests/Info.plist";
+				DEVELOPMENT_TEAM = 6484ZA84G9;
+				INFOPLIST_FILE = face_detectionTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Shubham.Mask-DetectorTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham.face-detectionTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -510,84 +514,86 @@
 			};
 			name = Release;
 		};
-		DE59A2FB24CAF56B0077CBC3 /* Debug */ = {
+		DE3D618024CB469B00448CF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Mask DetectorUITests/Info.plist";
+				DEVELOPMENT_TEAM = 6484ZA84G9;
+				INFOPLIST_FILE = face_detectionUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Shubham.Mask-DetectorUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham.face-detectionUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Mask Detector";
+				TEST_TARGET_NAME = face_detection;
 			};
 			name = Debug;
 		};
-		DE59A2FC24CAF56B0077CBC3 /* Release */ = {
+		DE3D618124CB469B00448CF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Mask DetectorUITests/Info.plist";
+				DEVELOPMENT_TEAM = 6484ZA84G9;
+				INFOPLIST_FILE = face_detectionUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Shubham.Mask-DetectorUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham.face-detectionUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Mask Detector";
+				TEST_TARGET_NAME = face_detection;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE59A2C524CAF5690077CBC3 /* Build configuration list for PBXProject "Mask Detector" */ = {
+		DE3D614A24CB469500448CF4 /* Build configuration list for PBXProject "Mask Detector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE59A2F224CAF56B0077CBC3 /* Debug */,
-				DE59A2F324CAF56B0077CBC3 /* Release */,
+				DE3D617724CB469B00448CF4 /* Debug */,
+				DE3D617824CB469B00448CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE59A2F424CAF56B0077CBC3 /* Build configuration list for PBXNativeTarget "Mask Detector" */ = {
+		DE3D617924CB469B00448CF4 /* Build configuration list for PBXNativeTarget "Mask Detector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE59A2F524CAF56B0077CBC3 /* Debug */,
-				DE59A2F624CAF56B0077CBC3 /* Release */,
+				DE3D617A24CB469B00448CF4 /* Debug */,
+				DE3D617B24CB469B00448CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE59A2F724CAF56B0077CBC3 /* Build configuration list for PBXNativeTarget "Mask DetectorTests" */ = {
+		DE3D617C24CB469B00448CF4 /* Build configuration list for PBXNativeTarget "Mask DetectorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE59A2F824CAF56B0077CBC3 /* Debug */,
-				DE59A2F924CAF56B0077CBC3 /* Release */,
+				DE3D617D24CB469B00448CF4 /* Debug */,
+				DE3D617E24CB469B00448CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE59A2FA24CAF56B0077CBC3 /* Build configuration list for PBXNativeTarget "Mask DetectorUITests" */ = {
+		DE3D617F24CB469B00448CF4 /* Build configuration list for PBXNativeTarget "Mask DetectorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE59A2FB24CAF56B0077CBC3 /* Debug */,
-				DE59A2FC24CAF56B0077CBC3 /* Release */,
+				DE3D618024CB469B00448CF4 /* Debug */,
+				DE3D618124CB469B00448CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DE59A2C224CAF5690077CBC3 /* Project object */;
+	rootObject = DE3D614724CB469500448CF4 /* Project object */;
 }
